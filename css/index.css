@@ -92,7 +92,6 @@ div:empty {
 
 .content-preserve-3d {
   transform-style: preserve-3d;
-
   justify-content: space-between;
 }
 
@@ -109,6 +108,7 @@ div:empty {
 .content,
 .content img {
   border-radius: 10px;
+  text-align: center;
 }
 
 .content h2 {
@@ -116,7 +116,6 @@ div:empty {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  text-align: center;
 }
 
 .content:active {

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.4.1](https://github.com/AzamAzis/odin-recipes/compare/v1.4.0...v1.4.1) (2025-10-31)
+
+
+### Bug Fixes
+
+* fix image alignment in index.html ([d054682](https://github.com/AzamAzis/odin-recipes/commit/d0546821922212dd05a10b9222c677b1ab18a094))
+
 ## [1.4.0](https://github.com/AzamAzis/odin-recipes/compare/v1.3.0...v1.4.0) (2025-10-31)
 
 
