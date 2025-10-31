@@ -10,13 +10,20 @@ body {
 }
 .title-box {
   align-items: center;
-  background-color: brown;
-  box-shadow: 0px 0px 0px 10px rgb(142, 26, 26);
-  display: flex;
+  box-shadow: 0px 0px 0px 10px rgb(125, 32, 32);
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.title-box,
+.content {
+  background-color: brown;
   padding: 20px;
-  text-align: center;
+}
+
+.title-box,
+.content-preserve-3d {
+  display: flex;
 }
 
 a {
@@ -34,20 +41,30 @@ div:empty {
 
 .profile-container {
   cursor: pointer;
-  height: 200px;
   margin: 0 auto 30px;
   position: relative;
+}
+
+.profile-container,
+.profile img {
   width: 200px;
+  height: 200px;
 }
 
 .profile {
   height: 100%;
-  position: absolute;
   transition: transform 1s ease-in-out;
   width: 100%;
   transform-style: preserve-3d;
+  box-shadow: 0px 0px 10px 5px rgb(155, 147, 147);
 }
 
+.profile,
+.profile img {
+  border-radius: 50%;
+}
+
+.profile,
 .profile .side {
   position: absolute;
 }
@@ -60,14 +77,12 @@ div:empty {
 
 .profile:hover {
   transform: rotateY(180deg);
+  box-shadow: 0 0 10px 10px rgb(155, 147, 147);
 }
 
 .profile img {
   -o-object-fit: cover;
-  border-radius: 50%;
-  height: 200px;
   object-fit: cover;
-  width: 200px;
 }
 
 .content-container {
@@ -77,16 +92,12 @@ div:empty {
 
 .content-preserve-3d {
   transform-style: preserve-3d;
-  display: flex;
+
   justify-content: space-between;
 }
 
 .content {
-  background-color: brown;
   display: inline-block;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
   width: 250px;
   box-shadow:
     5px 4.5px 0 4px rgb(125, 32, 32),
@@ -95,6 +106,7 @@ div:empty {
   outline-offset: -10px;
 }
 
+.content,
 .content img {
   border-radius: 10px;
 }
@@ -104,6 +116,7 @@ div:empty {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-align: center;
 }
 
 .content:active {

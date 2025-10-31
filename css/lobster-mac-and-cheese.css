@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 238, 238);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.header,
+.content-container {
+  background-color: brown;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.header h1 {
+  cursor: default;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 30px;
+}
+
+.image-container img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgb(155, 147, 147);
+}
+
+.content-container {
+  padding: 45px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: 2px dashed white;
+  outline-offset: -10px;
+}
+
+.content-container h2 {
+  margin-bottom: 10px;
+}
+
+.content-container .content:not(:last-child) {
+  margin-bottom: 20px;
+}
