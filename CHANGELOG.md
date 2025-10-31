@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.4.0](https://github.com/AzamAzis/odin-recipes/compare/v1.3.0...v1.4.0) (2025-10-31)
+
+
+### Features
+
+* add elements and style to Yummylicious Japanese Beef Croquettes ([ccb76f3](https://github.com/AzamAzis/odin-recipes/commit/ccb76f3a4d698dd07e32061873a00dc96ca38c51))
+
 ## [1.3.0](https://github.com/AzamAzis/odin-recipes/compare/v1.2.0...v1.3.0) (2025-10-31)
 
 
