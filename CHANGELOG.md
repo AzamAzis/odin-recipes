@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/AzamAzis/odin-recipes/compare/v1.1.0...v1.2.0) (2025-10-31)
+
+
+### Features
+
+* add div to recipes titles and images and add style it ([1f0678a](https://github.com/AzamAzis/odin-recipes/commit/1f0678aa8dc9142d1dadff1757467c70067a9672))
+* add elements to lobster-mac-and-cheese.html and add style it ([81dcddf](https://github.com/AzamAzis/odin-recipes/commit/81dcddf5be7b16852b85ffca1dcf99e3c76d8326))
+
 ## [1.1.0](https://github.com/AzamAzis/odin-recipes/compare/v1.0.4...v1.1.0) (2025-10-30)
 
 
